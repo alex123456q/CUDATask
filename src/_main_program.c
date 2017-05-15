@@ -46,6 +46,9 @@ double (*gpuUs), (*gpuVs), (*gpuWs), (*gpuQs), (*gpuRho_i), (*gpuSpeed);
 double lhs_ [P_SIZE][5];
 double lhsp_[P_SIZE][5];
 double lhsm_[P_SIZE][5];
+double *gpuLhs_;
+double *gpuLhsm_;
+double *gpuLhsp_;
 
 int main(int argc, char *argv[])
 {

@@ -57,6 +57,9 @@ extern double (*gpuUs), (*gpuVs), (*gpuWs), (*gpuQs), (*gpuRho_i), (*gpuSpeed);
 extern double lhs_ [P_SIZE][5];
 extern double lhsp_[P_SIZE][5];
 extern double lhsm_[P_SIZE][5];
+extern double *gpuLhs_;
+extern double *gpuLhsm_;
+extern double *gpuLhsp_;
 
 //-----------------------------------------------------------------------
 //initialize functions
